@@ -1,0 +1,8 @@
+E:\Tonghop\CTDL-GT\DoAnCTDL-GT\DoAnCTDL-GT\obj\Debug\DoAnCTDL-GT.csprojAssemblyReference.cache
+E:\Tonghop\CTDL-GT\DoAnCTDL-GT\DoAnCTDL-GT\obj\Debug\DoAnCTDL-GT.csproj.CoreCompileInputs.cache
+E:\Tonghop\CTDL-GT\DoAnCTDL-GT\DoAnCTDL-GT\bin\Debug\DoAnCTDL-GT.exe.config
+E:\Tonghop\CTDL-GT\DoAnCTDL-GT\DoAnCTDL-GT\bin\Debug\DoAnCTDL-GT.exe
+E:\Tonghop\CTDL-GT\DoAnCTDL-GT\DoAnCTDL-GT\bin\Debug\DoAnCTDL-GT.pdb
+E:\Tonghop\CTDL-GT\DoAnCTDL-GT\DoAnCTDL-GT\obj\Debug\DoAnCTDL-GT.exe
+E:\Tonghop\CTDL-GT\DoAnCTDL-GT\DoAnCTDL-GT\obj\Debug\DoAnCTDL-GT.pdb
+E:\Tonghop\CTDL-GT\DoAnCTDL-GT\DoAnCTDL-GT\bin\Debug\Input.txt
