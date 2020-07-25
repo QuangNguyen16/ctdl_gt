@@ -96,7 +96,7 @@ namespace DoAnCTDL_GT
                                             switch (nLuaChon1)
                                             {
                                                 case 1:
-                                                    Console.Write("\t\t\t\t a \n"/* hien thi danh sach*/, nLuaChon1);
+                                                    Console.Write("\t\t\t\t a\n", nLuaChon1);
                                                     break;
                                                 case 2:
                                                     Console.Write("\t\t\t\t b \n" /*Them danh sach*/, nLuaChon1);

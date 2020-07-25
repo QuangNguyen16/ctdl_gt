@@ -29,6 +29,7 @@ namespace DoAnCTDL_GT
         public int SoTrang;
         public DateTime NgayNhapKho;
         public int TinhTrangSach;
+        
 
         public void Read(StreamReader sR)
         {
@@ -68,6 +69,7 @@ namespace DoAnCTDL_GT
             Console.WriteLine("---------------------");
 
         }
+
 
     }
 }

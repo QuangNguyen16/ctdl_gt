@@ -1,9 +1,1 @@
-8
-1#DoreMon#Toi#Yahihi#0#1500#49#1/1/0001 12:00:00 AM#3
-2#Dore#Toi#Yahihi#0#100#49#1/1/0001 12:00:00 AM#2
-3#DoreMon&Tom#T#Yahihi#0#1500#49#1/1/0001 12:00:00 AM#2
-4#DoreMon#Abc#Yahihi#0#1900#49#1/1/0001 12:00:00 AM#0
-5#Tom#Toi#Yahihi#0#5000#49#1/1/0001 12:00:00 AM#2
-6#DoNan#Toi#Yahihi#0#1200#49#1/1/0001 12:00:00 AM#1
-7#Jerry#Ahi#Yahihi#0#500#49#1/6/2010 12:00:00 AM#2
-8#Laraval#Toi#Yahihi#0#15000#49#1/1/0001 12:00:00 AM#2
+0
