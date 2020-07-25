@@ -36,8 +36,7 @@ namespace DoAnCTDL_GT
          */
         public void loginAccount()
         {
-            do
-            {
+            
                 /*
                  * Khai bao va su dung thu vien doc file
                  * File : Input.txt(user: Admin, pass: 1234567)
@@ -91,22 +90,19 @@ namespace DoAnCTDL_GT
                                         int nLuaChon1 = 0;
                                         if (nLuaChon1 >= 1 || nLuaChon1 <= 3)
                                         {
-                                            Console.Write("\n\t\t\t\t\t1.Hien Thi Thong Tin Sach");
-                                            Console.Write("\n\t\t\t\t\t2.Them Sach");
-                                            Console.Write("\n\t\t\t\t\t3.Xoa Sach\n");
-                                            Console.Write("\n\t\t\t\t\tMoi Ban Nhap Lua Chon Tiep Theo:");
+                                            MenuSach();
 
                                             int.TryParse(Console.ReadLine(), out nLuaChon1);
                                             switch (nLuaChon1)
                                             {
                                                 case 1:
-                                                    Console.Write("\t\t\t\t a", nLuaChon1);
+                                                    Console.Write("\t\t\t\t a \n"/* hien thi danh sach*/, nLuaChon1);
                                                     break;
                                                 case 2:
-                                                    Console.Write("\t\t\t\t b", nLuaChon1);
+                                                    Console.Write("\t\t\t\t b \n" /*Them danh sach*/, nLuaChon1);
                                                     break;
                                                 case 3:
-                                                    Console.Write("\t\t\t\t c", nLuaChon1);
+                                                    Console.Write("\t\t\t\t c \n" /*Xoa Sach*/, nLuaChon1);
                                                     break;
                                             }
                                         }
@@ -117,22 +113,19 @@ namespace DoAnCTDL_GT
                                         int nLuaChon2 = 0;
                                         if (nLuaChon2 >= 1 || nLuaChon2 <= 3)
                                         {
-                                            Console.Write("\n\t\t\t\t\t1.Hien Thi Thong Tin Phieu Muon");
-                                            Console.Write("\n\t\t\t\t\t2.Muon Sach");
-                                            Console.Write("\n\t\t\t\t\t3.Tra Sach");
-                                            Console.Write("\n\t\t\t\t\tMoi Ban Nhap Lua Chon Tiep Theo:");
+                                            MenuPhieuMuon();
 
                                             int.TryParse(Console.ReadLine(), out nLuaChon2);
                                             switch (nLuaChon2)
                                             {
                                                 case 1:
-                                                    Console.Write("\t\t\t\t 1", nLuaChon2);
+                                                    Console.Write("\t\t\t\t  1 \n", nLuaChon2);
                                                     break;
                                                 case 2:
-                                                    Console.Write("\t\t\t\t 2", nLuaChon2);
+                                                    Console.Write("\t\t\t\t 2 \n", nLuaChon2);
                                                     break;
                                                 case 3:
-                                                    Console.Write("\t\t\t\t 3", nLuaChon2);
+                                                    Console.Write("\t\t\t\t 3 \n", nLuaChon2);
                                                     break;
                                             }
                                         }
@@ -147,27 +140,61 @@ namespace DoAnCTDL_GT
                             }
                         } while (nChon == 1 || nChon == 2);
                     }
-                    else
+                    else if (ctr != 3)
                     {
-                        Console.Write("\n \t\t\tBan da nhap sai username " +
-                            "hoac password\n\n");
+                        Console.WriteLine("Tam dung");
                     }
                 }
 
-            } while ((user != sUser || pass != sPass)
-                && (ctr <= 3));
-            if (ctr != 3)
-            {
-                Console.Write("Tam dung");
-            }
+            
 
 
 
 
 
         }
+        /*
+         * Hien Thi Sach
+         */
+        
+        public static void HienThiSach()
+        {
+
+        }
+
+        /*
+         * Them Sach 
+         */
+        public static void ThemSach()
+        {
+
+        }
+
+        /*
+         * Xoa Sach
+         */
+        public static void XoaSach()
+        {
+
+        }
 
 
+        public static void MenuSach()
+        {
+            Console.Write("\n\t\t\t\t\t1.Hien Thi Thong Tin Sach");
+            Console.Write("\n\t\t\t\t\t2.Them Sach");
+            Console.Write("\n\t\t\t\t\t3.Xoa Sach\n");
+            Console.Write("\n\t\t\t\t\tMoi Ban Nhap Lua Chon Tiep Theo:");
+        }
+
+        public static void MenuPhieuMuon()
+        {
+            Console.Write("\n\t\t\t\t\t1.Hien Thi Thong Tin Phieu Muon");
+            Console.Write("\n\t\t\t\t\t2.Muon Sach");
+            Console.Write("\n\t\t\t\t\t3.Tra Sach");
+            Console.Write("\n\t\t\t\t\t3.Thoat Chuong Trinh\n");
+            Console.Write("\n\t\t\t\t\tMoi Ban Nhap Lua Chon Tiep Theo:");
+        }
 
     }
 }

@@ -6,3 +6,4 @@ E:\Tonghop\CTDL-GT\DoAnCTDL-GT\DoAnCTDL-GT\bin\Debug\DoAnCTDL-GT.pdb
 E:\Tonghop\CTDL-GT\DoAnCTDL-GT\DoAnCTDL-GT\obj\Debug\DoAnCTDL-GT.exe
 E:\Tonghop\CTDL-GT\DoAnCTDL-GT\DoAnCTDL-GT\obj\Debug\DoAnCTDL-GT.pdb
 E:\Tonghop\CTDL-GT\DoAnCTDL-GT\DoAnCTDL-GT\bin\Debug\Input.txt
+E:\Tonghop\CTDL-GT\DoAnCTDL-GT\DoAnCTDL-GT\bin\Debug\Sach.txt

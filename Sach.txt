@@ -1,0 +1,9 @@
+﻿8
+1#DoreMon#Toi#Yahihi#Nhat#1500#49#16/7/2010#3
+2#Dore#Toi#Yahihi#hacker#100#49#16/10/2010#2
+3#DoreMon&Tom#T#Yahihi#Nhat#1500#49#16/7/2010#2
+4#DoreMon#Abc#Yahihi#Nasha#1900#49#16/3/2010#0
+5#Tom#Toi#Yahihi#Nhat#5000#49#20/7/2010#2
+6#DoNan#Toi#Yahihi#Nhat#1200#49#14/7/2010#1
+7#Jerry#Ahi#Yahihi#Akigato#500#49#1/6/2010#2
+8#Laraval#Toi#Yahihi#Anh#15000#49#16/7/2010#2
